@@ -1,0 +1,32 @@
+﻿** 강조
+     다시 빌드될 테이블
+       없음
+     삭제될 클러스터형 인덱스
+       없음
+     생성될 클러스터형 인덱스
+       없음
+     데이터 문제가 있는 것 같습니다.
+       없음
+
+** 사용자 작업
+     삭제
+       [dbo].[Tb_User]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+     변경
+       [dbo].[Tb_User] (테이블)
+       [dbo].[sp_Holiday_GetYear] (프로시저)
+       [dbo].[sp_Management_Ins] (프로시저)
+       [dbo].[sp_ManagementMaster_Del] (프로시저)
+       [dbo].[sp_ManagementSub_Sel] (프로시저)
+
+** 지원 동작
+     만들기
+       DEFAULT 제약 조건: [dbo].[Tb_User]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+     새로 고침
+       [dbo].[sp_Work_GroupSel] (프로시저)
+       [dbo].[sp_User_Del] (프로시저)
+       [dbo].[sp_User_Ins] (프로시저)
+       [dbo].[sp_User_Sel] (프로시저)
+       [dbo].[sp_Work_UserSel] (프로시저)
+
+프로젝트 및 대상 데이터베이스에 다른 데이터 정렬 설정이 있습니다. 배포 오류가 발생할 수 있습니다.
+

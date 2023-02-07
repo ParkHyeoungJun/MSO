@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSO", "MSO\MSO.csproj", "{D0E60BFF-7EF8-4F15-9219-3C61B0DDEE1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPnetPagerV2_8", "ASPnetPagerV2_8\ASPnetPagerV2_8.csproj", "{DDA4682F-257E-4920-A586-35E5F504CB6C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MSO.DataBase", "MSO.DataBase\MSO.DataBase.sqlproj", "{2E6115FD-F7F3-4218-8F7F-3E69AB500896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{7000CC51-B304-4691-B985-5D18AB5B1E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbUtil", "dbUtil\dbUtil.csproj", "{D47EAB24-81BD-44F1-820A-0CA8580ABBCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSO.Doc", "MSO.Doc", "{37513269-7F89-41E9-A0E5-3908831CD1B1}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\박형준\Downloads\MSO_Sage300_AddOn_개발정의서_20220323.pdf = C:\Users\박형준\Downloads\MSO_Sage300_AddOn_개발정의서_20220323.pdf
+		C:\Users\박형준\Desktop\엠쏘 Diagram.pdf = C:\Users\박형준\Desktop\엠쏘 Diagram.pdf
+		C:\Users\박형준\Desktop\엠쏘 테이블 정의서.xlsx = C:\Users\박형준\Desktop\엠쏘 테이블 정의서.xlsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0E60BFF-7EF8-4F15-9219-3C61B0DDEE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E60BFF-7EF8-4F15-9219-3C61B0DDEE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E60BFF-7EF8-4F15-9219-3C61B0DDEE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E60BFF-7EF8-4F15-9219-3C61B0DDEE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA4682F-257E-4920-A586-35E5F504CB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA4682F-257E-4920-A586-35E5F504CB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA4682F-257E-4920-A586-35E5F504CB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA4682F-257E-4920-A586-35E5F504CB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6115FD-F7F3-4218-8F7F-3E69AB500896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6115FD-F7F3-4218-8F7F-3E69AB500896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6115FD-F7F3-4218-8F7F-3E69AB500896}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2E6115FD-F7F3-4218-8F7F-3E69AB500896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6115FD-F7F3-4218-8F7F-3E69AB500896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6115FD-F7F3-4218-8F7F-3E69AB500896}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7000CC51-B304-4691-B985-5D18AB5B1E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7000CC51-B304-4691-B985-5D18AB5B1E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7000CC51-B304-4691-B985-5D18AB5B1E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7000CC51-B304-4691-B985-5D18AB5B1E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47EAB24-81BD-44F1-820A-0CA8580ABBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47EAB24-81BD-44F1-820A-0CA8580ABBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47EAB24-81BD-44F1-820A-0CA8580ABBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47EAB24-81BD-44F1-820A-0CA8580ABBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56F48DFE-5F5A-4E24-8BBF-1F48F3DEC41D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,80 @@
+﻿** 강조
+     다시 빌드될 테이블
+       없음
+     삭제될 클러스터형 인덱스
+       없음
+     생성될 클러스터형 인덱스
+       없음
+     데이터 문제가 있는 것 같습니다.
+       없음
+
+** 사용자 작업
+     만들기
+       [dbo].[tb_CostSales] (테이블)
+       [dbo].[Tb_Holiday] (테이블)
+       [dbo].[tb_ManagementMaster] (테이블)
+       [dbo].[tb_ManagementSub] (테이블)
+       [dbo].[Tb_User] (테이블)
+       [dbo].[tb_Work] (테이블)
+       DEFAULT 제약 조건: [dbo].[tb_CostSales]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[tb_CostSales]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[Tb_Holiday]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[Tb_Holiday]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[Tb_Holiday]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[tb_ManagementMaster]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[tb_ManagementMaster]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[Tb_User]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[Tb_User]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[Tb_User]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[tb_Work]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       DEFAULT 제약 조건: [dbo].[tb_Work]에 대한 명명되지 않은 제약 조건 (DEFAULT 제약 조건)
+       [dbo].[fun_GetOvertime] (함수)
+       [dbo].[fun_GetWoorkTime] (함수)
+       [dbo].[fun_GetWorkOvertime] (함수)
+       [dbo].[func_GetWoorkHoliYN] (함수)
+       [dbo].[func_GetWoorkTime] (함수)
+       [dbo].[func_OverTime] (함수)
+       [dbo].[sp_CostSales_Del] (프로시저)
+       [dbo].[sp_CostSales_Ins] (프로시저)
+       [dbo].[sp_CostSales_Sel] (프로시저)
+       [dbo].[sp_GetEmp] (프로시저)
+       [dbo].[sp_GetWoorkHoliYN] (프로시저)
+       [dbo].[sp_GetWoorkOverTime] (프로시저)
+       [dbo].[sp_GetWoorkTime] (프로시저)
+       [dbo].[sp_GetYear] (프로시저)
+       [dbo].[sp_Holiday_Del] (프로시저)
+       [dbo].[sp_Holiday_Ins] (프로시저)
+       [dbo].[sp_Holiday_Sel] (프로시저)
+       [dbo].[sp_Management_Del] (프로시저)
+       [dbo].[sp_Management_Init] (프로시저)
+       [dbo].[sp_Management_Ins] (프로시저)
+       [dbo].[sp_Management_List] (프로시저)
+       [dbo].[sp_Management_Sel] (프로시저)
+       [dbo].[sp_ManagementMaster_Del] (프로시저)
+       [dbo].[sp_ManagementMaster_List] (프로시저)
+       [dbo].[sp_ManagementSub_GetVersion] (프로시저)
+       [dbo].[sp_ManagementSub_Ins] (프로시저)
+       [dbo].[sp_ManagementSub_Sel] (프로시저)
+       [dbo].[sp_ManagementSub_SelInit] (프로시저)
+       [dbo].[sp_User_Del] (프로시저)
+       [dbo].[sp_User_Ins] (프로시저)
+       [dbo].[sp_User_Login] (프로시저)
+       [dbo].[sp_User_Sel] (프로시저)
+       [dbo].[sp_Woork_Del] (프로시저)
+       [dbo].[sp_Work_ExcelIns] (프로시저)
+       [dbo].[sp_Work_ExcelUp] (프로시저)
+       [dbo].[sp_Work_GetMM] (프로시저)
+       [dbo].[sp_Work_GetWW] (프로시저)
+       [dbo].[sp_Work_GroupSel] (프로시저)
+       [dbo].[sp_Work_Ins] (프로시저)
+       [dbo].[sp_Work_Sel] (프로시저)
+       [dbo].[sp_Work_UserGetMM] (프로시저)
+       [dbo].[sp_Work_UserGetWW] (프로시저)
+       [dbo].[sp_Work_UserSel] (프로시저)
+     변경
+       [dbo].[sp_EmpFind] (프로시저)
+
+** 지원 동작
+
+프로젝트 및 대상 데이터베이스에 다른 데이터 정렬 설정이 있습니다. 배포 오류가 발생할 수 있습니다.
+

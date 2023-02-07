@@ -1,0 +1,26 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
